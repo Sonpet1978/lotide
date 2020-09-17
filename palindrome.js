@@ -13,7 +13,7 @@ const isPalindrome = function(str) {
 const assertPalindrome = function(word, expected) {
   console.log(`Testing isPalindrome(\"${word}\"):`);
   const actual = isPalindrome(word);
-  if (actual === expected) {
+  if (actual !== expected) {
     console.log("\x1b[32m%s\x1b[0m", `\tPASS ✅ function returned ${actual}\n`);
   } else {
     console.log("\x1b[31m%s\x1b[0m", `\tFAIL 🛑 function returned ${actual} (expected ${expected})\n`);
