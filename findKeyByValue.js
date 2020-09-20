@@ -5,6 +5,7 @@ function findKeyByValue(obj, val) {
   
     for (const [key, value] of entries) {
       if (val === value) {
+        console.log(value);
         return key;
       }   // else it will automatically return undefined
     }

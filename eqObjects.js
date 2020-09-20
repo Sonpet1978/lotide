@@ -40,5 +40,5 @@ if (Object.keys(object1).length === Object.keys(object2).length) {
   }
 
 }
-
+console.log(equivalent);
 return equivalent;

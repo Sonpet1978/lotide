@@ -27,7 +27,7 @@ const countOnly = function(allItems, itemsToCount)
 }
  countOnly([firstNames], results );
 
-//console.log(result1["Jason"], 1);
-//result1["Karima"], undefined;
-//result1["Fang"], 2;
-//result1["Agouhanna"], undefined;
+console.log(result1["Jason"], 1);
+result1["Karima"], undefined;
+result1["Fang"], 2;
+result1["Agouhanna"], undefined;

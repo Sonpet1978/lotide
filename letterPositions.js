@@ -11,4 +11,6 @@ const letterPositions = function(sentence) {
   
     return result;
   };
+
+  console.log(letterPositions("SONYA SHAPIRO"));
   

@@ -2,6 +2,7 @@ function flatten(arr) {
     let newArr = [];
     arr && arr.forEach(a => {
         if (a instanceof Array) {
+          console.log(a);
         newArr = newArr.concat(flatten(a));
       } else {
         newArr.splice(newArr.length, 0, a);
