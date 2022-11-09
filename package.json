@@ -21,6 +21,6 @@
   "homepage": "https://github.com/Sonpet1978/lotide#readme",
   "devDependencies": {
     "chai": "^4.2.0",
-    "mocha": "^8.1.3"
+    "mocha": "^10.1.0"
   }
 }
